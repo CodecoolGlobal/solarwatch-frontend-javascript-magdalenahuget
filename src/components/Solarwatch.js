@@ -120,7 +120,7 @@ const Solarwatch = () => {
                     </Button>
                 </Box>
             </Box>
-            <SolarwatchData data={data}/>
+            {data ? <SolarwatchData data={data}/> : null}
         </Container>
     );
 };
