@@ -81,7 +81,7 @@ const Registration = () => {
                         variant="contained"
                         sx={{ mt: 3, mb: 2 }}
                     >
-                        Register
+                        Log in
                     </Button>
                 </Box>
             </Box>
