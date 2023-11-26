@@ -21,3 +21,18 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+### IntelliJ IDEA ###
+.idea
+.idea/
+
+*.iws
+*.iml
+*.ipr
+
+
+### VS Code ###
+!/src/main/resources/application.yaml
+/src/main/resources/application.yaml
+/

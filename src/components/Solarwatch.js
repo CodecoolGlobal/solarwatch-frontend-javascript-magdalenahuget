@@ -61,6 +61,7 @@ const Solarwatch = () => {
                 console.log('Status: ' + response.status);
                 if (response.status === 200) {
                     console.log('Welcome solarwatch!');
+                    // setCategories(response.data)
                 } else {
                     console.log('Unauthorized.');
                     window.location.href = 'http://localhost:3000/login';
