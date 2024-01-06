@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# solar-watch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here you can find repository with frontend part for this project:
 
-## Available Scripts
+- [Backend part](https://github.com/CodecoolGlobal/solar-watch-security-java-magdalenahuget)
 
-In the project directory, you can run:
 
-### `npm start`
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Authors](#authors)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## General Information
+This project allowed me to gain all the most important information I needed to start building, running, and testing web applications on my own.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+- Javascript
+- React
+- MaterialUI
 
-### `npm test`
+## Features
+- Building a Spring Boot Web API
+- Interact with other APIs
+- Unit testing in Spring Boot
+- How to add Spring Data JPA to a Spring Boot project
+- How to create entity relationships
+- Use PostgreSQL database with Spring Data JPA
+- Adding Spring Security to an existing project
+- How to define Data Models and associations for Authentication and Authorization
+- Way to use Spring Data JPA to interact with PostgreSQL Database in the context of Spring Security
+- Testing the web layer of a Spring Boot application
+- Integration Testing With @SpringBootTest
+- Using in-memory database for integration tests
+- Using MockWebServer to mock external Web APIs in integration tests
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
+![](readmeResources/registration.PNG)
 
-### `npm run build`
+![](readmeResources/login.PNG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](readmeResources/solarwatch.PNG)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![](readmeResources/city-gordes.PNG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup
+1. *Install Git* - Make sure you have the Git version control system installed on your computer.
+2. *Clone Repository* - Copy the project repository URL and clone it on your local computer using the following command in the terminal:
 
-### `npm run eject`
+```
+git clone <repository-url>
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. *Install Dependencies* - Install the required dependencies using the following command:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. *Configure application* - Contact the project maintainer for API keys.
+4. *Run the Application* - After completing the above steps, you can now run the application using the following command:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm start
+```
 
-## Learn More
+The application should be available at http://localhost:3000 in your web browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
+For all sun lovers to check what time the sun rises and sets in every corner of the world
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Status
+Project is: _completed_
 
-### Code Splitting
+## Room for Improvement
+Improve user interface to implement all backend features.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+Magdalena Huget
